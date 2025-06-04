@@ -13,3 +13,6 @@ Some things we might need to use in our prompt, or follow up prompts, include:
 ## Reflection
 Gen AI is able to meet all rrequirement from this code and run it smoothly, no bugs or error occured.
 We observed that GenAi is a great tool to help us coding, but we can't rely on GenAI too much since there's still a chance it will make mistakes.
+
+##GenAI Link
+https://chatgpt.com/share/68408f14-f118-800d-b8d9-86553bc35221
