@@ -31,13 +31,13 @@ public class SnowFallReport {
         scanner.close();
     }
 
-    static void printIntro() {
+    public static void printIntro() {
         System.out.println("This program will calculate the amount of");
         System.out.println("snowfall between two cities, determining");
         System.out.println("which city encountered more snow.\n");
     }
 
-    static String getCityName(Scanner scanner, int cityNumber) {
+    public static String getCityName(Scanner scanner, int cityNumber) {
         System.out.print("What's the name of city #" + cityNumber + " > ");
         String city = scanner.next();
         if (city.equals("Shoreline")) {
@@ -46,7 +46,7 @@ public class SnowFallReport {
         return city;
     }
 
-    static double getTotalSnow(Scanner scanner, String city) {
+    public static double getTotalSnow(Scanner scanner, String city) {
         System.out.println("\nInformation for " + city + ":\n");
         System.out.print("\tHow many days did it snow for? > ");
         int days = scanner.nextInt();
@@ -61,7 +61,7 @@ public class SnowFallReport {
         return total;
     }
 
-    static int convertToFeet(double inches) {
+    public static int convertToFeet(double inches) {
         int feet = (int) (inches / 12);
         double remainder = inches - feet * 12;
         if (remainder >= 6) {
